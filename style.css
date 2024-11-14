@@ -1,0 +1,122 @@
+body {
+    font-style: oblique;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: auto;
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+ li a {
+    text-decoration: none;
+}
+h1 {
+font-size: 2cm;
+}
+  
+    
+
+
+.td {
+    text-align: right;
+}
+
+h2,h1 .nsg {
+    color: gray;
+}
+
+hr {
+    text-transform: none;
+}
+
+header {
+    background-color: rgba(156, 178, 117, 0.577);
+    
+}
+
+h2 {
+    color: black;
+}
+
+.case {
+    width: 800px;        /* Largeur de la case */
+    height: 250px;       /* Hauteur de la case */
+    background-color: rgb(172, 233, 227); /* Couleur du cadre (noir) */
+    display:flex ;
+    justify-content: center;/* Centrer horizontalement */
+    align-items: center;     /* Centrer verticalement */
+    margin: 20px auto; /* Centrer la case sur la page */
+    border: 25px solid gray; /* Bordure grise pour mieux délimiter la case */
+}
+
+/* Style pour le truc bleu */
+.blue-box {
+    width: 150px;  /* Largeur du truc bleu */
+    height: 150px; /* Hauteur du truc bleu */
+    background-color: rgba(0, 255, 183, 0.073); /* Couleur bleue */
+}
+
+
+.info2 {
+    width: 500px;     
+     /* Largeur de la case */
+     height: 200px;
+     /* hauteur */
+     background-color: rgb(172, 233, 227);
+     justify-content: center; 
+     align-items: center;
+     margin: 20px auto;
+     border: 25px solid gray;
+     display: flex;
+
+
+}
+/* style pour la case info  */
+.info {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 255, 183, 0.073);
+}
+
+.blue-box {
+    transition-property: width;
+    transition-duration: 25s;
+    transition-timing-function: linear;
+}
+
+  
+  .cursor {
+    display: inline-block;
+    color: blue; /* Couleur de la barre de frappe */
+    font-size: 70px; /* Taille du texte, adapte-le si tu modifies la taille */
+    height: 1.2em; /* Ajuste la hauteur du curseur en fonction de la taille du texte */
+    width: 20px; /* Ajuste la largeur du curseur */
+    background-color: blue; /* Couleur du curseur */
+    animation: blink 0.7s steps(1) infinite; /* Animation de clignotement */
+  }
+  
+    
+  
+  
+  @keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+  }
+  .typewriter {
+    color: blue;
+  }
+  
+
+
+ 
+
+
+
+
+
+
+
+
+

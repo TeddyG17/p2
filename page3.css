@@ -1,0 +1,32 @@
+nav ul li {
+   display: inline-block; 
+   margin: auto;
+   list-style-type: none;
+   margin-left: 100px;
+
+}
+.typewriter {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px; /* Taille du texte */
+    color: white; /* Couleur du texte */
+    letter-spacing: 20px;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 150px;
+
+  }
+
+
+
+.nn {
+    display: flex; 
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(98, 98, 188, 0.743);
+}
